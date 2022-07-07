@@ -2,15 +2,18 @@
     color: red;
     font-family: 'Titan One';
 }
+
 .text-center {
     color: dodgerblue;
     font-family: 'Titan One'; 
 }
+
 .card-text {
     color: red;
     text-shadow: dodgerblue;
     font-family: 'Titan One'; 
 }
+
 button {
     color: red;
     height: 50px;
@@ -21,11 +24,14 @@ button {
     margin-bottom: 15px;
     font-family: 'Titan One'; 
 }
+
 #name-search {
     border-radius: 50px;
     font-family: 'Times New Roman', Times, serif;
-    
+    font-size: 18pt;
+    padding-left: 20px;
 }
+
 h1 {
     color: dodgerblue;
     text-align: center;
@@ -36,15 +42,18 @@ h1 {
     left: 415px;
     
 }
+
 p {
     text-align: center;
 
 }
+
 body {
     background-color: lightblue;
     opacity: 0.8;
-  }
-  img {
+}
+
+img {
     border-radius: 4px;
     padding: 5px;
     width: 150px;
@@ -53,8 +62,28 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+//<<<<<<< minor-touchups
+}
+
+.header-sub {
+    font-size: 24pt;
+}
+
+.search-title {
+    font-size: 30pt;
+}
+
+.search-label {
+    font-size: 20pt;
+}
+
+#submit {
+    font-size: 20pt;
+}
+//=======
   }
 
   .youtube-link {
     color: dodgerblue;
   }
+//>>>>>>> main
