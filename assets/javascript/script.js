@@ -33,17 +33,28 @@ function createResults(response){
         let resultsTab = document.createElement('div');
 
 
-        let resultsName = document.createElement('a');
+        let resultsName = document.createElement('h3');
         let resultImg = document.createElement('img');
+        let shazamEl = document.createElement('a');
+        let breakEl = document.createElement('br');
 
-        resultsName.innerHTML = response.tracks.hits[i].track.title;
+        resultsName.innerHTML = response.tracks.hits[i].track.share.subject;
+        shazamEl.innerHTML = 'Listen on Shazam'
         // this line will add the img thumbnail. once bootstrap stylings are decided, we can add classes
         resultImg.setAttribute('src', response.tracks.hits[i].track.images.coverart)
-        resultsName.setAttribute('href', response.tracks.hits[i].track.url)
+        shazamEl.setAttribute('href', response.tracks.hits[i].track.url)
         resultsName.setAttribute('target', '_blank')
+        resultImg.classList.add('img-fluid', 'd-inline-block', 'col-6')
+        resultsName.classList.add('text-dark', 'd-inline-block', 'col-4')
+        shazamEl.classList.add('card-text')
 
         resultsEl.appendChild(resultsTab)
         resultsTab.appendChild(resultImg)
         resultsTab.appendChild(resultsName)
+        resultsName.appendChild(breakEl)
+        resultsName.appendChild(shazamEl)
+
     }
 }
+// what if we add a button to generated elements that shows more info directly in browser?
+// what apis might give more info? even like a producer or smth would be great
