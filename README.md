@@ -1,1 +1,1 @@
-# IGL-APP-Project-1
+# TGS-APP-Project-1
