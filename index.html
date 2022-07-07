@@ -5,36 +5,32 @@
         <link rel="stylesheet" href="./assets/css/style.css">
         <meta charset="utf-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
         <title>TSG APP</title>
     </head>
-    <header class="w-100 bg-dark">
-        <!-- <h1>TSG... APP</h1> -->
-        <img src="./assets/images/TSG App Logo 3.png" alt="capture" style="width:300px">
-        <p class="text-light p-2">Search for the song you can't seem to remember!</p>
-    </header>
+
     <body>
-        
+        <header class="w-100 bg-dark">
+            <img src="./assets/images/TSG App Logo.png" alt="TSG Logo" style="width:350px">
+            <p class="text-light p-2 header-sub">Search for the song you can't seem to remember!</p>
+        </header>
+
+        <main>
             <div class="card col-9 m-auto">
-                
-                <h3 class="card-title text-center mt-2 mb-4">Search The App</h3>
-                <label for="search" class="card-text">The song goes...</label>
+                <h3 class="card-title text-center mt-2 mb-4 search-title">Search The App</h3>
+                <label for="search" class="card-text search-label">The song goes...</label>
                 <input type="search" name="search" id="name-search">
-                
-
-
                 <button id="submit">Submit</button>
             </div>
+
             <div class="col-9 vh-auto m-auto">
                 <h2 class="text-center">Results</h2>
                 <hr>
-                <div id="results">
-                </div>
+                <div id="results"></div>
             </div>
+        </main>
 
-        
         <script src="./assets/javascript/script.js"></script>
     </body>
 </html>

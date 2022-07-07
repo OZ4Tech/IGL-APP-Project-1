@@ -12,8 +12,7 @@ Our TSG web app is a simple music search tool that allows users to enter song ly
 
 ## App Preview
 
-<!-- Below is a test gif. Need to update once app is a little more polished -->
-![TSG App Preview](./assets/images/TSG%20APP.gif)
+![TSG App Preview](./assets/images/TSG%20App%20Preview.gif)
 
 ## Deployed App Link
 
