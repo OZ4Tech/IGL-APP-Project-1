@@ -1,0 +1,42 @@
+#submit {
+    color: red;
+    font-family: 'Titan One';
+}
+.text-center {
+    color: dodgerblue;
+    font-family: 'Titan One'; 
+}
+.card-text {
+    color: red;
+    text-shadow: dodgerblue;
+    font-family: 'Titan One'; 
+}
+button {
+    color: red;
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    background-color: dodgerblue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Titan One'; 
+}
+#name-search {
+    border-radius: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+h1 {
+    color: red;
+    text-align: center;
+    font-family: 'Titan One';
+}
+p {
+    text-align: center;
+
+}
+body {
+    background-color: lightblue;
+    opacity: 0.8;
+  }
+   
