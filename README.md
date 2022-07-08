@@ -16,4 +16,4 @@ Our TSG web app is a simple music search tool that allows users to enter song ly
 
 ## Deployed App Link
 
-<!-- Insert link to deployed app here... -->
+Click [HERE](https://hawkjosh.github.io/module1-code-refactor-challenge/) to see our deployed app.
